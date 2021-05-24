@@ -1,0 +1,36 @@
+@import "mediaQuery";
+@import "variables";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+.root {
+  height: 100%;
+
+  @include laptop {
+    font-size: 16px;
+  }
+
+  @include laptop1650min {
+    font-size: 20.8px;
+  }
+
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 500;
+  margin: 0;
+}
+
+.topbar {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+
+}
