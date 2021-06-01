@@ -30,7 +30,29 @@ body {
 }
 
 .topbar {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  display: none;
 
+  @include tablet {
+    align-items: center;
+    border-bottom: 1px solid $box-shadow-color;
+    color: #7f807fea;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 100%;
+    margin: auto;
+    min-height: 4.1em;
+    padding: 0 3.5%;
+    width: 100%;
+    z-index: 1;
+
+    .middle-section {
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+    .end-section {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  }
 }
