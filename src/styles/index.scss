@@ -49,10 +49,55 @@ body {
     .middle-section {
       display: grid;
       grid-template-columns: auto auto auto;
+
+      .link {
+        cursor: pointer;
+      }
     }
     .end-section {
       display: grid;
       grid-template-columns: auto auto;
+
+      .login-button {
+        border: 1px solid $secondary-color;
+        color: $secondary-color;
+        border-radius: 0.4em;
+        padding: 0.5em 1.5em;
+        cursor: pointer;
+      }
+
+      .signup-button {
+        background: $secondary-color;
+        color: white;
+        border-radius: 0.4em;
+        padding: 0.5em 1.5em;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.post-dashboard {
+  display: none;
+
+  @include laptop {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1em;
+
+    .sidebar {
+      display: grid;
+      grid-template-rows: auto;
+      gap: 3em;
+      margin: 1em;
+      .posts {
+        border-bottom: 1px solid;
+        border-bottom-color: $box-shadow-color;
+      }
+    }
+    .main-area {
+      border: 1px solid red;
+      margin: 1em;
     }
   }
 }

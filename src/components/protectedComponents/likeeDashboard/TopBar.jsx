@@ -59,19 +59,35 @@ const TopBar = ({
             </div>
         )
     })
-    const AuthenticatedLinks = withRouter(() => {
+    // const AuthenticatedLinks = withRouter(() => {
+    //     return (
+    //         <div className="middle-section">
+    //             <div>Home</div>
+    //         </div>
+    //     )
+    // })
+    // const LoggedInLinks = () => {
+    //     return (
+    //         <div className="end-section">
+    //             <div>Home</div>
+    //             <div>Logout</div>
+    //         </div>
+    //     )
+    // }
+    const NotLoggedInLinks = () => {
         return (
-            <div className="middle-section">
-                <div>Home</div>
+            <div className="end-section">
+                <div><button className="login-button">Login</button></div>
+                <div><button className="signup-button">Get Started,It's Free</button></div>
             </div>
         )
-    })
+    }
     return (
         <Fragment>
             <div className="topbar">
                 <div><h2>Post App</h2></div>
                 <div><UnauthenticatedLinks/></div>
-                <div>ddd</div>
+                <div><NotLoggedInLinks/></div>
             </div>
         </Fragment>
     )
