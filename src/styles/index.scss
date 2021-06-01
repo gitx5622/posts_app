@@ -46,6 +46,9 @@ body {
     width: 100%;
     z-index: 1;
 
+    .logo-name {
+      margin-top: -100px;
+    }
     .middle-section {
       display: grid;
       grid-template-columns: auto auto auto;

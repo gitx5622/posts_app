@@ -85,7 +85,7 @@ const TopBar = ({
     return (
         <Fragment>
             <div className="topbar">
-                <div><h2>Post App</h2></div>
+                <div><img src="/images/Footer/foxx.png" alt="logo" width="20%"/><span className="logo-name">Posts App</span></div>
                 <div><UnauthenticatedLinks/></div>
                 <div><NotLoggedInLinks/></div>
             </div>

@@ -1,0 +1,24 @@
+@import "../variables";
+@import "../mediaQuery";
+
+.footer {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1fr;
+  border-top: 1px solid $box-shadow-color;
+  margin: 2em;
+
+  .foxx {
+    padding-left: 6em;
+  }
+
+  .links {
+    li {
+      padding: 1em 1em;
+    }
+  }
+  .copyright {
+    text-align: center;
+    margin-top: -2em;
+    padding-bottom: 1em;
+  }
+}

@@ -24,7 +24,9 @@ const Landing = () => {
                 </div>
                 <div><img src="/images/Landing/brand-pic.jpg" width="90%" alt="brand-pic"/></div>
             </div>
-            <div className="second-landing"><h1>Create and List Posts about your Business </h1></div>
+            <div className="second-landing">
+                <h1>Create and List Posts about your Business </h1>
+            </div>
         </Fragment>
     );
 };

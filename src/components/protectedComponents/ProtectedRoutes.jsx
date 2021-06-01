@@ -4,6 +4,7 @@ import TopBar from "./likeeDashboard/TopBar";
 import Landing from "../publicComponents/LandingPage/Landing";
 import Login from "../publicComponents/Authentication/Login";
 import SnackInfo from "../../utils/SnackInfo";
+import Footer from "../publicComponents/Footer/Footer";
 
 /**
  * @description Routing handler for dashboard components
@@ -50,6 +51,7 @@ const ProtectedRoutes = ({ location }) => {
                             </Switch>
                         </div>
                     </div>
+                    <Footer/>
                 </div>
             ) : (
                 <Switch>
