@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c9b135d-1e2e-448d-ac67-2ee36a4192e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/protectedComponents/ProtectedRoutes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/protectedComponents/ProtectedRoutes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/protectedComponents/likeeDashboard/TopBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/protectedComponents/likeeDashboard/TopBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/protectedComponents/likeeDashboard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/protectedComponents/likeeDashboard/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStore/reducers/postsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStore/reducers/postsReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Footer/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +23,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bazu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -66,6 +58,10 @@
       <workItem from="1622553358829" duration="13272000" />
       <workItem from="1622874132014" duration="22594000" />
       <workItem from="1623434865548" duration="2125000" />
+      <workItem from="1623489886681" duration="134000" />
+      <workItem from="1623490114313" duration="95000" />
+      <workItem from="1623490228354" duration="34000" />
+      <workItem from="1623492114458" duration="1427000" />
     </task>
     <servers />
   </component>
