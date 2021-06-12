@@ -9,14 +9,7 @@ export const initialPostsState = {
     isError: false,
     isSuccess: false,
     errorMessage: '',
-    posts: {
-        merchant_posts: [],
-        pagination: {
-            count: 0,
-            page: null,
-            per: null,
-        },
-    },
+    posts: [],
 };
 
 export const getPostsReducer = (

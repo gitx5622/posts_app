@@ -93,14 +93,17 @@ body {
       grid-template-rows: auto;
       gap: 3em;
       margin: 1em;
-      .posts {
-        border-bottom: 1px solid;
-        border-bottom-color: $box-shadow-color;
-      }
     }
     .main-area {
-      border: 1px solid red;
+      border: 1px solid $box-shadow-color;
       margin: 1em;
+      max-height: 32em;
+      overflow: scroll;
+
+      .post-title {
+         padding: 0.5em 0.5em;
+        color: $secondary-color;
+      }
     }
   }
 }

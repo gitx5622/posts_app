@@ -5,6 +5,7 @@ import Landing from "../publicComponents/LandingPage/Landing";
 import Login from "../publicComponents/Authentication/Login";
 import SnackInfo from "../../utils/SnackInfo";
 import Footer from "../publicComponents/Footer/Footer";
+import PostDashboard from "./likeeDashboard";
 
 /**
  * @description Routing handler for dashboard components
@@ -22,7 +23,8 @@ const ProtectedRoutes = ({ location }) => {
     });
 
     const isBrandPage =
-        location.pathname === '/';
+        location.pathname === '/' ||
+        location.pathname === '/dashboard';
 
     const isUserPage =
         location.pathname === '/user/login';
@@ -48,6 +50,7 @@ const ProtectedRoutes = ({ location }) => {
                         <div id="main-scrollable">
                             <Switch>
                                 <Route exact path="/" render={() => <Landing />} />
+                                <Route exact path="/dashboard" render={() => <PostDashboard />} />
                             </Switch>
                         </div>
                     </div>
@@ -55,6 +58,13 @@ const ProtectedRoutes = ({ location }) => {
                 </div>
             ) : (
                 <Switch>
+                    <Route
+                        exact
+                        path="/:dashboard_route"
+                        render={() => (
+                            <PostDashboard/>
+                        )}
+                    />
                     <Redirect to='/'/>
                 </Switch>
             )}
